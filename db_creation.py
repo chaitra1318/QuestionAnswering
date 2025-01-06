@@ -24,8 +24,7 @@ def load_docs(data_dir):
   documents = loader.load()
   return documents
 
-data_dir = "/home/chaitra/QA/Data"
-#data_dir ="/Users/chaitrakaustubh/Documents/KG/QA_LangChain/Data"
+data_dir = "path to data directory"
 documents = load_docs(data_dir)
 print(len(documents))
 
